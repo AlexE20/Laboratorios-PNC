@@ -1,10 +1,12 @@
 package com.example.laboratorio1.common;
 
 import com.example.laboratorio1.domain.entities.Pokemon;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
 public class PokemonData {
     private final List<Pokemon> listaPokemon = new ArrayList<>();
 
