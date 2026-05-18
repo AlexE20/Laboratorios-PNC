@@ -1,4 +1,4 @@
-package com.example.laboratorio3.dto.request;
+package com.example.laboratorio3.domain.dto.request.specimen;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
