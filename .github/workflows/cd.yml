@@ -28,5 +28,5 @@ jobs:
           context: ./Laboratorio-3
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/Laboratorio-3:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/Laboratorio-3:sha-${{ github.sha }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/laboratorio-3:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/laboratorio-3:sha-${{ github.sha }}
